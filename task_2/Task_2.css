@@ -1,0 +1,1016 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-image:  url("home-banner-bg.webp");    
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.first .nav{
+    padding: 16px;
+}
+.first .nav .nav-left{
+    float: left;
+    width: 35%;
+}
+.first .nav .nav-right{
+
+    float: right;
+    width:60%;
+  margin-top: 24px;
+  
+}
+.first .nav .nav-right ul{
+    display: flex;
+    gap: 68px;
+    flex-direction: row;
+    font-size:24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    color: white;
+
+}
+.first .nav .nav-right ul .btn1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: orange;
+    border:none;
+    border-radius: 8px;
+    /* padding: 15px; */
+    font-weight: bold;
+    font-size: large;
+    padding: 15px 22px;
+
+}
+.first .text1{
+    color:white;
+    font-weight:bold ;
+    font-size: 40px;
+    margin-top: 22vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    padding: 0px 6px;
+}
+.text2{
+    margin-top: 30vh;
+    padding-left: 28px;
+    width: 50%;
+    float: left;
+
+}
+.text2 p{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400 ;
+    font-size: larger;
+    
+}
+.text2 .button-1{
+    text-align: center;
+    margin-top: 20px;  
+}
+.text2 .button-1 .btn1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: orange;
+    border:none;
+    border-radius: 8px;
+    /* padding: 15px; */
+    font-weight: bold;
+    font-size: large;
+    padding: 15px 22px;
+
+    
+}
+
+
+.text2 .button-1 .btn2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(93, 124, 238);
+    border:none;
+    border-radius: 8px;
+    /* padding: 15px; */
+    font-weight: bold;
+    font-size: large;
+    padding: 15px 22px;
+    margin-left: 12px;
+
+}
+.dashboard{
+    width: 47%;
+    float: right;
+    /* padding-top: 20px; */
+
+}
+.float_{
+    padding: 50px;
+}
+.float_ .l1 ul {
+    float: left;
+    padding-top: 6px;
+    margin: 12px;
+    /* margin-top: 84px; */
+    margin-left: 34px;
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    align-items:center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+.second{
+    margin: 50px 0px;
+    width: 100%;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    height: 200px;
+
+
+}
+.second .text3{
+    font-weight: center;
+    margin: 40px;
+}
+.second .text3 h2{
+font-size: 36px;
+    font-weight: 700;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.second .text p{
+    font-family:poppins, sans-serif;
+    padding: 0px 80px;
+    word-spacing: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+
+}
+.projects{
+    font-family: poppins, sans-serif;
+    background-image: url(dashboarddts.webp);
+   background-color: rgb(98, 172, 246);
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    height: 250px;
+    
+}
+
+.projects h3{
+   
+   padding: 6px;
+   margin: 6px;
+    font-size: 30px;
+    padding: 6px;
+    margin: 6px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 45px; 
+    height: 110px;   
+}
+.project p{
+    font-size: 20px;
+}
+
+
+/* Manage Project */
+.manage_project{
+    /* padding: 2px; */
+    margin: 8px;
+}
+
+.manage_project .mp_1{
+    /* background-color: brown; */
+    float: left; 
+    width: 50%;  
+    height: 500px;
+   
+      
+}
+.manage_project .mp_2{
+    
+    float: left;
+    width: 50%;
+    height:500px ;
+    /* background-color: brown; */
+}
+
+.manage_project .mp_1 p{
+    padding: 4px;
+    margin: 7px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.manage_project .mp_1 h3{
+    padding: 4px;
+    margin: 7px;
+    font-size: 40px;
+    font-family:  Arial,sans-serif;
+
+}
+.manage_project .mp_1 h4{
+    padding: 4px;
+    margin: 7px;
+    font-size: 30px;
+    font-family:  Arial,sans-serif;
+    
+
+}
+.manage_project .mp_1 ul li{
+    padding: 4px;
+    margin: 7px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    /* background-color: rgb(128, 202, 254); */
+}
+.manage_project .mp_1 ul li::before{
+    content: "✓";
+    margin-right: 10px;
+
+}
+.manage_project .mp_1 button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 2px 6px;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    
+    width: 200px;
+    /* background-color: rgb(98, 172, 246); */
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    
+}
+.manage_project button::after{
+    content: "→" ;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.manage_project .mp_2 img{
+    margin: 10px;
+    padding: 10px;
+    /* padding-top: 10px; */
+}
+/* Manage Clients */
+.manage_clients{
+     background-color: #e0f0fd;
+    /* margin: 2px; */
+    /* padding: 20px; */
+    
+}
+.manage_clients .mc_1 {
+    float:right; 
+    width: 40%;  
+    height: 500px;
+    background-color: #e0f0fd;
+}
+.manage_clients .mc_2 {
+    background-color: #e0f0fd;
+    float: right;
+    width: 60%;
+    height: 500px ;
+    
+}
+
+.manage_clients .mc_1 p{
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+.manage_clients .mc_1 h3{
+
+    padding: 20px;
+    font-size: 40px;
+    font-family:  Arial,sans-serif;
+
+}
+.mc_1 h4{
+    font-size: 30px;
+    font-family:  Arial,sans-serif;
+    
+
+}
+.manage_clients .mc_1 ul li{
+    padding: 4px;
+    margin: 7px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    
+}
+.mc_1 ul li::before{
+  
+    content: "✓";
+    color: rgb(9, 21, 247);
+    margin-right: 10px;
+
+}
+.manage_clients .mc_1 button{
+    margin: 20px;
+    margin-left: 40px;
+    padding: 2px 6px;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    
+    width: 200px;
+    background-color: rgb(96, 167, 248);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+ button::after{
+    content: "→" ;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.mc_2 img{
+    margin: 20px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+
+/* Manage quotations */
+.manage_quotations{
+    /* padding: 2px; */
+    margin: 8px;
+}
+
+.Manage_q .mq_1{
+    /* background-color: brown; */
+    float: left; 
+    width: 50%;  
+    height: 500px;
+   
+      
+}
+.Manage_q .mq_2{
+    
+    float: left;
+    width: 50%;
+    height:500px ;
+    /* background-color: brown; */
+}
+
+.Manage_q .mq_1 p{
+    padding: 4px;
+    margin: 7px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Manage_q .mq_1 h3{
+    padding: 4px;
+    margin: 7px;
+    font-size: 40px;
+    font-family:  Arial,sans-serif;
+
+}
+.Manage_q .mq_1 h4{
+    padding: 4px;
+    margin: 7px;
+    font-size: 30px;
+    font-family:  Arial,sans-serif;
+    
+
+}
+.Manage_q .mq_1 ul li{
+    padding: 4px;
+    margin: 7px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    /* background-color: rgb(128, 202, 254); */
+}
+.Manage_q .mq_1 ul li::before{
+    content: "✓";
+    margin-right: 10px;
+
+}
+.Manage_q .mq_1 button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 2px 6px;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    
+    width: 200px;
+    background-color: rgb(96, 167, 248);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    
+}
+.Manage_q button::after{
+    content: "→" ;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.Manage_q .mq_2 img{
+    margin: 10px;
+    padding: 10px;
+    /* padding-top: 10px; */
+}
+
+/* Manage Invoices */
+.manage_invoices {
+     background-color: #e0f0fd;
+    /* margin: 2px; */
+    /* padding: 20px; */
+    
+}
+.manage_invoices .mi_1 {
+    float:right; 
+    width: 40%;  
+    height: 500px;
+ background-color: #e0f0fd;}
+.manage_invoices .mi_2 {
+     background-color: #e0f0fd;
+    float: right;
+    width: 60%;
+    height: 500px ;
+    
+}
+.manage_invoices .mi_1 p{
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+.manage_invoices .mi_1 h3{
+
+    padding: 20px;
+    font-size: 40px;
+    font-family:  Arial,sans-serif;
+
+}
+.mi_1 h4{
+    font-size: 30px;
+    font-family:  Arial,sans-serif;
+    
+
+}
+.manage_invoices .mi_1 ul li{
+    padding: 4px;
+    margin: 7px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    
+}
+.mi_1 ul li::before{
+  
+    content: "✓";
+    color: rgb(9, 21, 247);
+    margin-right: 10px;
+
+}
+.manage_invoices .mi_1 button{
+    margin: 20px;
+    margin-left: 40px;
+    padding: 2px 6px;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    
+    width: 200px;
+    background-color: rgb(96, 167, 248);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+ button::after{
+    content: "→" ;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.mi_2 img{
+    margin: 20px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+
+
+.manage_quotations{
+    /* padding: 2px; */
+    margin: 8px;
+}
+
+.Administration .ad_1{
+    /* background-color: brown; */
+    float: left; 
+    width: 50%;  
+    height: 500px;
+   
+      
+}
+.Administration .ad_2{
+    
+    float: left;
+    width: 50%;
+    height:500px ;
+    /* background-color: brown; */
+}
+
+.Administration .ad_1 p{
+    padding: 4px;
+    margin: 7px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Administration .ad_1 h3{
+    padding: 4px;
+    margin: 7px;
+    font-size: 40px;
+    font-family:  Arial,sans-serif;
+
+}
+.Administration .ad_1 h4{
+    padding: 4px;
+    margin: 7px;
+    font-size: 30px;
+    font-family:  Arial,sans-serif;
+    
+
+}
+.Administration .ad_1 ul li{
+    padding: 4px;
+    margin: 7px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    /* background-color: rgb(128, 202, 254); */
+}
+.Administration .ad_1 ul li::before{
+    content: "✓";
+    margin-right: 10px;
+
+}
+.Administration .ad_1 button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 2px 6px;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    
+    width: 200px;
+    background-color: rgb(96, 167, 248);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    
+}
+.Administration button::after{
+    content: "→" ;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.Administration .ad_2 img{
+    margin: 10px;
+    padding: 10px;
+    /* padding-top: 10px; */
+}
+
+/* Messaging and File Sharing */
+.Messaging-File-Sharing {
+    background-color: #e0f0fd;
+   
+    
+}
+.Messaging-File-Sharing .mfs_1 {
+    float:right; 
+    width: 40%;  
+    height: 500px;
+    background-color: #e0f0fd;
+}
+.Messaging-File-Sharing .mfs_2 {
+    background-color: #e0f0fd;
+    float: right;
+    width: 60%;
+    height: 500px ;
+    
+}
+.Messaging-File-Sharing .mfs_1 p{
+    /* padding: 20px; */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+.Messaging-File-Sharing .mfs_1 h3{
+
+    padding: 20px;
+    font-size: 40px;
+    font-family:  Arial,sans-serif;
+
+}
+.Messaging-File-Sharing .mfs_1 h4{
+    font-size: 30px;
+    font-family:  Arial,sans-serif;
+    
+
+}
+.Messaging-File-Sharing .mfs_1 ul li{
+    padding: 4px;
+    margin: 7px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    
+}
+.Messaging-File-Sharing .mfs_1 ul li::before{
+  
+    content: "✓";
+    color: rgb(9, 21, 247);
+    margin-right: 10px;
+
+}
+.Messaging-File-Sharing .mfs_1 button{
+    margin: 20px;
+    margin-left: 40px;
+    padding: 2px 6px;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    
+    width: 200px;
+    background-color: rgb(96, 167, 248);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+ button::after{
+    content: "→" ;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.Messaging-File-Sharing .mfs_2 img{
+    margin: 20px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+
+/* Support  */
+.Support{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.Support .S_1 h1{
+    margin-top: 40px;
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.Support .S_1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 36px;
+  height: 350px;
+}
+.Support .S_1 .S1{ 
+    float: left;
+    width: 35%;
+   
+}
+.Support .S_1 .S1 h2{
+  
+    margin-top: 20px;
+    font-size: 30px;
+}
+.Support .S_1 .S1 p{
+     margin-top: 35px;
+     font-size: 20px;
+}
+
+.Support .S_1 .S2{
+    float: left;
+     width: 30%;
+
+    }
+    .Support .S_1 .S2 h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .Support .S_1 .S2 p{
+        margin-top: 35px;
+       
+        font-size: 20px;
+    }
+    
+.Support .S_1 .S3{
+    float: right;
+     width: 35%;
+
+}
+.Support .S_1 .S3 h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.Support .S3 p{
+     margin-top: 35px;
+      font-size: 20px;
+   
+}
+
+.Subscription-Plan{
+    background-color: rgb(206, 235, 251);
+   width: 100%;
+    min-height: 1150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.Subscription-Plan .headings{
+    text-align: center;
+    padding: 20px;
+}
+.Subscription-Plan .headings h1{
+    margin-top: 35px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.Subscription-Plan .headings p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Subscription-Plan .plans .plan-1{
+    margin-top: 50px;
+     background-color: white;
+    width: 30%;
+    padding: 30px 15px;
+    border: 2px solid rgb(18, 156, 249);
+    border-radius: 14px;
+    float: left;
+    margin-left: 15px;
+}
+.Subscription-Plan .plans .plan-1 h2{
+     text-align: center;
+    font-size: 32px;
+}
+.Subscription-Plan .plans .plan-1 h3{
+   margin-left: 14px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.Subscription-Plan .plans .plan-1 h4{
+     margin-left: 14px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.Subscription-Plan .plans .plan-1 ul{
+   list-style: none;
+    /* margin-left: 5px; */
+    margin-top: 20px;
+}
+.Subscription-Plan .plans .plan-1 ul li{
+    margin-bottom: 10px;
+    
+}
+.Subscription-Plan .plans .plan-1 ul li img{
+    width: 19px;
+    /* margin-right: 10px; */
+    /* margin-left: 2px; */
+}
+.Subscription-Plan .plans .plan-1 button{
+   text-align: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color: rgb(83, 178, 242);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/*  div  2 */
+.Subscription-Plan .plans .plan-2{
+    margin-top: 50px;
+     background-color: white;
+    width: 30%;
+    padding: 30px 15px;
+    border: 2px solid rgb(18, 156, 249);
+    border-radius: 14px;
+    float: left;
+    margin-left: 15px;
+}
+.Subscription-Plan .plans .plan-2 h2{
+     text-align: center;
+    font-size: 32px;
+}
+.Subscription-Plan .plans .plan-2 h3{
+   margin-left: 14px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.Subscription-Plan .plans .plan-2 h4{
+     margin-left: 14px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.Subscription-Plan .plans .plan-2 ul{
+   list-style: none;
+    /* margin-left: 5px; */
+    margin-top: 20px;
+}
+.Subscription-Plan .plans .plan-2 ul li{
+    margin-bottom: 10px;
+    
+}
+.Subscription-Plan .plans .plan-2 ul li img{
+    width: 19px;
+    /* margin-right: 10px; */
+    /* margin-left: 2px; */
+}
+.Subscription-Plan .plans .plan-2 button{
+   text-align: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color: rgb(83, 178, 242);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* div  3 */
+.Subscription-Plan .plans .plan-3{
+    margin-top: 50px;
+     background-color: white;
+    width: 28%;
+    padding: 30px 15px;
+    border: 2px solid rgb(18, 156, 249);
+    border-radius: 14px;
+    float: right;
+    margin-right: 15px;
+}
+.Subscription-Plan .plans .plan-3 h2{
+     text-align: center;
+    font-size: 32px;
+}
+.Subscription-Plan .plans .plan-3 h3{
+   margin-left: 14px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.Subscription-Plan .plans .plan-3 h4{
+     margin-left: 14px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.Subscription-Plan .plans .plan-3 ul{
+   list-style: none;
+    /* margin-left: -25px; */
+     
+    margin-top: 20px;
+}
+.Subscription-Plan .plans .plan-3 ul li{
+    margin-bottom: 10px;
+     list-style: none;
+    
+}
+.Subscription-Plan .plans .plan-3 ul li img{
+    width: 19px;
+    /* margin-right: 5px; */
+}
+.Subscription-Plan .plans .plan-3 button{
+   text-align: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color: rgb(83, 178, 242);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.Subscription-Plan .line{
+ text-align: center;
+    margin-bottom: 45px;
+}
+.Subscription-Plan .line img{
+    margin-bottom: 15px;
+    width: 22px;
+}
+    
+
+
+
+/* FAQ section */
+.sixth {
+    height: 730px;
+}
+
+.sixth .h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+
+.sixth .h1 h1 {
+    font-size: 36px;
+}
+.sixth .h1 p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.sixth .accordian .container {
+    width: 1100px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.sixth .accordian .container details {
+    border-bottom: 1px solid black;
+}
+
+summary {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sixth .accordian .container details p {
+    padding: 15px;
+    margin: 0;
+}
+
+.footer{
+background-color: rgb(107, 186, 239);
+color: white;
+padding: 40px;
+font-family: Arial;
+}
+
+.footer-top{
+display: flex;
+justify-content: space-between;
+}
+
+.footer-logo{
+font-size: 24px;
+font-weight: bold;
+}
+
+.footer-links ul{
+list-style: none;
+padding: 0;
+}
+
+.footer-links li{
+margin-bottom: 10px;
+}
+
+.footer-right{
+width: 350px;
+}
+
+.social span{
+margin-right: 10px;
+}
+
+.footer-middle{
+text-align: center;
+margin-top: 20px;
+}
+
+.footer-bottom{
+display: flex;
+justify-content: space-around;
+margin-top: 40px;
+font-weight: bold;
+}
